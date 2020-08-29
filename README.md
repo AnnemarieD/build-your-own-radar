@@ -8,6 +8,11 @@
 [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 [![AGPL License](https://badgen.net/github/license/thoughtworks/build-your-own-radar)](https://github.com/thoughtworks/build-your-own-radar)
 
+## Getting started
+- Clone the repo
+- Open command prompt in folder where the repo is
+- run `npm install` to install all needed node modules
+- run `run npm dev` to start the application on localhost:8080. It will check for changes and update, no need to restart between changes
 
 A library that generates an interactive radar, inspired by [thoughtworks.com/radar](http://thoughtworks.com/radar).
 
