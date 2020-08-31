@@ -11,6 +11,12 @@
 ## Getting started
 - Clone the repo
 - Open command prompt in folder where the repo is
+- Add `.env` file with the following:
+    ```
+  API_KEY=your-google-api-key
+  CLIENT_ID=your-client-id
+  ENABLE_GOOGLE_AUTH=true
+  ``` 
 - run `npm install` to install all needed node modules
 - run `run npm dev` to start the application on localhost:8080. It will check for changes and update, no need to restart between changes
 
