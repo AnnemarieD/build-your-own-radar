@@ -105,6 +105,10 @@ module.exports = {
       {
         test: require.resolve('jquery'),
         use: [{ loader: 'expose-loader', options: 'jQuery' }, { loader: 'expose-loader', options: '$' }]
+      },
+      {
+        test: /\.csv$/,
+        use: [{loader: 'csv-loader', options: { dynamicTyping: true, header: true, skipEmptyLines: true } }]
       }
     ]
   },
