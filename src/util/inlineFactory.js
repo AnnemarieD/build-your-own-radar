@@ -1,8 +1,6 @@
 document.title = 'Etos Tech Radar'
 
 // store data inline directly as a table...
-//const csv = require('../../TechRadar.csv')
-//const rawDataTable = [csv]
 const rawDataTable = [
     [ 'name',                          'ring',   'quadrant',               'isNew', 'description' ],
     [ 'Grafana',                       'adopt',  'tools',                  'TRUE',  'This is the description. You can use basic html such as the <strong>strong tag to emphasise keywords and phrases</strong> and insert <a href="https://www.thoughtworks.com">anchor links to documentation and referance material</a>.' ],
