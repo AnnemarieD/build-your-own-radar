@@ -4,5 +4,7 @@ require('./images/radar_legend.png')
 require('./gtm.js')
 
 const GoogleSheetInput = require('./util/csvFactory')
+//const GoogleSheetInput = require('./util/factory')
+//const GoogleSheetInput = require('./util/inlineFactory')
 
 GoogleSheetInput().build()

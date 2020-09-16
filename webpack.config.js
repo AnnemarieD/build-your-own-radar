@@ -108,7 +108,12 @@ module.exports = {
       },
       {
         test: /\.csv$/,
-        use: [{loader: 'csv-loader', options: { dynamicTyping: true, header: true, skipEmptyLines: true } }]
+        loader: 'csv-loader',
+        options: {
+          dynamicTyping: true,
+          header: true,
+          skipEmptyLines: true
+        }
       }
     ]
   },
