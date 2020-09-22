@@ -108,12 +108,8 @@ module.exports = {
       },
       {
         test: /\.csv$/,
-        loader: 'csv-loader',
-        options: {
-          dynamicTyping: true,
-          header: true,
-          skipEmptyLines: true
-        }
+        exclude: /node_modules/,
+        use: [{ loader: 'file-loader?name=assets/[name].[ext]&context=./src/assets' }]
       }
     ]
   },
